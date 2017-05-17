@@ -1,0 +1,29 @@
+// -*- coding: utf-8 -*- 
+
+@1000 = ~Teufelslederbeutel~
+@1001 = ~TEUFELSLEDERBEUTEL
+Gewicht: 2
+
+Dieser Beutel wurde aus den Häuten mehrerer Teufelchen zusammengenäht und ist erstaunlich leicht und flexibel. Trotz seiner geringen Größe ist er elastisch genug, um jede Menge Talismane, Ringe, Schlüssel und anderen Krimskrams zu verwahren.~
+
+@2000 = ~Modron-Speicherkristall~
+@2001 = ~MODRON-SPEICHERKRISTALL
+Gewicht: 2
+
+Dieser Kristall wurde aus der selben Quelle auf Mechanus herangezüchtet, aus der auch alle Modronen stammen. Seine einzigartigen Eigenschaften erlauben es ihm, alle Arten von Informationen zu speichern und wieder abzurufen. Seltsamerweise vernichtet der Speicherprozess des Kristalls auch den Gegenstand, der die Informationen beinhaltet. Zum Glück wird der gefragte Gegenstand vollständig wiederhergestellt, sobald er gebraucht wird. Der Kristall scheint alle Arten von Schriftrollen, Handzettel und Bücher speichern zu können.~
+
+@3000 = ~Versiegelte Taschensingularität~
+@3001 = ~VERSIEGELTE TASCHENSINGULARITÄT
+Gewicht: 5
+
+Was von weitem wie eine schwarze Kugel aussieht, ist in Wirklichkeit ein mobiles Portal in einen außerdimensionalen Raum. Über die ursprüngliche Verwendung dieses Gegenstands kann man nur spekulieren, da der Name des Erschaffers dieser bemerkenswerten Gerätschaft schon vor langer Zeit in den Untiefen der Geschichte verloren ging.
+
+Das Portal scheint allerdings inaktiv oder versiegelt zu sein. Egal wie sehr man sich bemüht, es gibt keine Möglichkeit, diese schwarze Kugel zu öffnen.~
+
+@4000 = ~Taschensingularität~
+@4001 = ~TASCHENSINGULARITÄT
+Weight: 5
+
+Was von weitem wie eine schwarze Kugel aussieht, ist in Wirklichkeit ein mobiles Portal in einen außerdimensionalen Raum. Über die ursprüngliche Verwendung dieses Gegenstands kann man nur spekulieren, da der Name des Erschaffers dieser bemerkenswerten Gerätschaft schon vor langer Zeit in den Untiefen der Geschichte verloren ging.
+
+Durch eine spezielle Geste mit der linken Hand kann man die Kugel aktivieren und Zugang zu der anderen Dimension erhalten. Unabhängig davon, was man hineintut, wiegt die Kugel immer das Gleiche.~

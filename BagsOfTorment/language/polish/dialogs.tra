@@ -1,0 +1,80 @@
+// -*- coding: utf-8 -*- 
+
+// Vrischika lines
+@20000 = ~Obejrzyj tę czarną niczym noc kulę.~
+@20001 = ~"Nie mogę rozkminić, jak używać podręcznej osobliwości. Jakieś pomysły?"~
+@20002 = ~"Możesz wyjaśnić mi jeszcze raz, jak używać podręcznej osobliwości?"~
+@20003 = ~Oglądasz niewielką i niczym niewyróżniającą się kulę. Vriszika bierze ją do ręki i podaje ci. Jest zimna w dotyku i cięższa niżby się mogło wydawać. "Powiadają, że kula ta jest stabilnym portalem do sztucznej przestrzeni bezwymiarowej. Jej poprzedni właściciel nie wyjawił nic więcej na ten temat, ale nietrudno sobie wyobrazić, do czego mogłaby służyć. Sprzedam ci ją za 1000 miedziaków."~
+@20004 = ~"Biorę ją."~
+@20005 = ~"W zasadzie pozwól, że obejrzę raz jeszcze inne rzeczy..."~
+@20006 = ~"Nie, dzięki. Żegnaj, Vrisziko."~
+@20007 = ~"Hmm, może będę ci w stanie pomóc." Jej czarne usta układają się w uśmiech. "Ale to cię będzie kosztować. Zapłać mi kolejne 1000 miedziaków, a powiem ci wszystko, co o niej wiem."~
+@20008 = ~"Nie mam wielkiego wyboru. Zapłacę tę kwotę."~
+@20009 = ~"W zasadzie to mam inne pytanie..."~
+@20010 = ~"Obejrzyjmy więc, co masz na składzie."~
+@20011 = ~"To wszystko, co chciałem wiedzieć. Żegnaj."~
+@20012 = ~"Jasne. Zapytaj o nią Pieścimetala. Można go spotkać w Wieży Oblężniczej, do której można się dostać z Niższej Dzielnicy."~
+@20013 = ~"Mam inne pytanie..."~
+@20014 = ~"Tak," Vriszika pomrukuje, "mądry wybór." Miedziaki, które jej wręczyłeś, znikają natychmiast po kontakcie z dłonią. "A teraz słuchaj:"~
+@20015 = ~"Kupiłam ten artefakt nie tak dawno temu od konstruktu zwanego 'Pieścimetalem'. Zamieszkuje on Wieżę Oblężniczą, która znajduje się w Niższej Dzielnicy. Tam dowiesz się, jak aktywować podręczną osobliwość. Aby wejść do budynku, musisz wpierw odnaleźć portal i mieć ze sobą klucz, który go aktywuje."~
+@20016 = ~"Portal znajduje się po prawej stronie wieży, na moście zwodzonym. Aby go aktywować, musisz stłumić w sobie wszelką chęć dostania się do wnętrza wieży."~
+@20017 = ~"Kupiłam ten artefakt nie tak dawno temu od konstruktu zwanego 'Pieścimetalem', który zamieszkuje Wieżę Oblężniczą znajdującą się w Niższej Dzielnicy. Podał mi następującą instrukcję, jak należy go używać:
+
+    Rozchyl lewą dłoń i utwórz okrąg z kciuka i palca środkowego. Rozłóż palce wskazujące i małe w taki oto sposób i pomyśl słowo 'Otwórz'.
+
+Nie miałam okazji sprawdzić tego osobiście, więc sam zdecyduj, co zrobić z tą wiedzą."~
+@20018 = ~"Miło było robić z tobą interesy."~
+@20019 = ~"Ale to nie jest odpowiedź na moje pytanie."~
+@20020 = ~"Wręcz przeciwnie. Dostarczyłam ci dokładnie tego, o co prosiłeś. Chciałeś, bym powiedziała ci wszystko, co wiem o podręcznej osobliwości, którą masz w swoim posiadaniu."~
+@20021 = ~"Jasne. Aby aktywować podręczną osobliwość, musisz postępować co do joty według następującej instrukcji:
+
+Rozchyl lewą dłoń i utwórz okrąg z kciuka i palca środkowego. Rozłóż palce wskazujące i małe w taki oto sposób i pomyśl słowo 'Otwórz'.~
+@20022 = ~"A do czego można jej użyć?"~
+@20023 = ~"Może służyć do przechowywania dużej ilości przedmiotów. Mam rację?~
+@20024 = ~"Czyż to nie oczywiste? W tej sztucznej przestrzeni można przechowywać przedmioty zbyt ciężkie i nieporęczne dla słabowitych śmiertelników. Można je tam następnie dowolnie przemieszczać lub w każdej chwili z niej wyciągnąć."~
+@20025 = ~"Ależ oczywiście. Nie potrafię określić dokładnych wymiarów tej sztucznej przestrzeni, ale powinna być wystarczająca dla twoich potrzeb."~
+@20026 = ~"A więc decydujesz się na kupno?"~
+
+// Coaxmetal lines
+@21000 = ~"Możesz mi powiedzieć, jak otworzyć Podręczną Osobliwość?"~
+@21001 = ~KULA JEST PORTALEM. DO JEJ OTWARCIA POTRZEBNY JEST KLUCZ.~
+@21002 = ~"Co jest kluczem?"~
+@21003 = ~"Mam inne pytanie..."~
+@21004 = ~"Rozumiem. To wszystko, co chciałem wiedzieć. Żegnaj."~
+@21005 = ~ROZCHYL LEWĄ DŁOŃ I UTWÓRZ OKRĄG ZA POMOCĄ KCIUKA I PALCA ŚRODKOWEGO. ROZŁÓŻ PALCE WSKAZUJĄCE I MAŁE W TAKI OTO SPOSÓB I POMYŚL 'OTWÓRZ'.~
+@21006 = ~"Zanim pójdę, chciałbym zapytać o coś innego..."~
+@21007 = ~"Dziękuję. Żegnaj."~
+
+
+// A7#BAG3
+@22000 = ~To, co z daleka wygląda na czarną kulę, jest tak naprawdę przenośnym portalem do przestrzeni bezwymiarowej. Portal ten wygląda jednak na uśpiony lub zapieczętowany. Bez względu na to, jak bardzo się starasz, nie jesteś w stanie znaleźć sposobu na otwarcie czarnej kuli.~
+@22001 = ~Obejrzyj kulę.~
+@22002 = ~"Halo! Jest tam kto?"~
+@22003 = ~Odłóż przedmiot.~
+@22004 = ~Przyglądasz się kuli z bliska. Z początku powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Kiedy odprężasz jedna wzrok, dostrzegasz coś jakby powidok, którego intensywność zmienia się w zależności od tego, ja poruszysz lewą dłonią. Po wypróbowaniu różnych gestów kula rozbłyska na chwilę, wytwarzając wokół siebie na stałe delikatną poświatę. Możesz bez przeszkód sięgnąć do wnętrza czegoś, co wydaje się alternatywną przestrzenią.~
+@22005 = ~Przyglądasz się kuli z bliska. Powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Mając na uwadze wskazówki Pieścimetala, tworzysz lewą dłonią określony gest. Niemal natychmiast kula rozbłyska na chwilę, wytwarzając wokół siebie na stałe delikatną poświatę. Możesz bez przeszkód sięgnąć do wnętrza czegoś, co wydaje się alternatywną przestrzenią.~
+@22006 = ~Przyglądasz się kuli z bliska. Powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Mając na uwadze wskazówki Vrisziki, tworzysz lewą dłonią określony gest. Niemal natychmiast kula rozbłyska na chwilę, wytwarzając wokół siebie na stałe delikatną poświatę. Możesz bez przeszkód sięgnąć do wnętrza czegoś, co wydaje się alternatywną przestrzenią.~
+@22007 = ~Morte przygląda się kuli z bliska. Powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Mając na uwadze wskazówki Pieścimetala, Morte wykonuje gest przypominający wzruszenie ramionami: "Hej, szefie. Tak dla przypomnienia, ja i moja dłoń rozeszliśmy się dawno temu."~
+@22008 = ~Morte przygląda się kuli z bliska. Powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Mając na uwadze wskazówki Vrisziki, Morte wykonuje gest przypominający wzruszenie ramionami: "Hej, szefie. Tak dla przypomnienia, ja i moja dłoń rozeszliśmy się dawno temu."~
+@22009 = ~Nordom przygląda się kuli z bliska. Powierzchnia przedmiotu wygląda na czarną i niczym się niewyróżniającą. Wpatruje się intensywnie w kulę i oświadcza: "Wymagana: Chwytna wielopalczasta struktura umocowana na lewym przedramieniu." Nordom *kkk-kkk-kkkklika* przez chwilę, a potem *chrrrzęści.* "Rezultat: Nie można przeprowadzić sekwencji aktywacyjnej dla międzysferowego portalu."~
+@22010 = ~Pomimo twoich krzyków kula nie reaguje i pozostaje czarna, zimna i niczym się niewyróżniająca jak dotychczas.~
+
+
+// Journal entries
+@50000 = ~Torby Udręki~
+
+@50001 = ~Kupiłem od Vrisziki, która prowadzi "Sklep z Osobliwościami" w Dzielnicy Urzędników, ciekawy artefakt. Wygląda na wyjątkowo czarną i niczym się nie wyróżniającą rzecz, ale nie zawiera żadnych wskazówek na temat tego, do czego mógłby służyć. Może Vriszika będzie w stanie udzielić mi niezbędnych informacji.~
+
+@50002 = ~Kupiłem od Vrisziki, która prowadzi "Sklep z Osobliwościami" w Dzielnicy Urzędników, ciekawy artefakt. Wygląda na wyjątkowo czarną i niczym się nie wyróżniającą rzecz, ale nie zawiera żadnych wskazówek na temat tego, do czego mógłby służyć. Może ktoś o większej wiedzy na temat urządzeń planarnych i międzysferowych będzie w stanie udzielić mi niezbędnych informacji.~
+
+@50003 = ~Za grubą kasę Vriszika powiedziała mi tylko, że zamieszkujący Wieżę Oblężniczą w Niższej Dzielnicy Pieścimetal może pomóc mi aktywować Podręczną Osobliwość. Nie ma jak dobrze wydane miedziaki.~
+
+@50004 = ~Za grubą kasę Vriszika udzieliła mi wskazówek, jak aktywować portal w Podręcznej Osobliwości.~
+
+@50005 = ~Pieścimetal udzielił mi wskazówek, jak aktywować portal w Podręcznej Osobliwości.~
+
+@50100 = ~Doszedłem do tego, jak aktywować kulę. Najwyraźniej można jej używać jako swego rodzaju pojemnika do przechowywania dużej ilości przedmiotów o dowolnych rozmiarach i wadze.~
+
+@50101 = ~Stosując się do wskazówek Pieścimetala, udało mi się aktywować kulę. Najwyraźniej można jej używać jako swego rodzaju pojemnika do przechowywania dużej ilości przedmiotów o dowolnych rozmiarach i wadze.~
+
+@50102 = ~Stosując się do wskazówek Vrisziki, udało mi się aktywować kulę. Najwyraźniej można jej używać jako swego rodzaju pojemnika do przechowywania dużej ilości przedmiotów o dowolnych rozmiarach i wadze.~

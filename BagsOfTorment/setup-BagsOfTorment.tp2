@@ -1,0 +1,187 @@
+BACKUP ~BagsOfTorment/backup~
+AUTHOR ~Argent77 at Beamdog Forums~
+VERSION ~0.10-beta~
+
+README ~BagsOfTorment/readme/readme-%LANGUAGE%.txt~
+       ~BagsOfTorment/readme/readme.txt~
+
+LANGUAGE ~English~
+         ~english~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
+LANGUAGE ~Deutsch~
+         ~german~
+         ~BagsOfTorment/language/german/setup.tra~
+         ~BagsOfTorment/language/german/bags.tra~
+         ~BagsOfTorment/language/german/dialogs.tra~
+LANGUAGE ~Korean (translation: Teflon)~
+         ~korean~
+         ~BagsOfTorment/language/korean/setup.tra~
+         ~BagsOfTorment/language/korean/bags.tra~
+         ~BagsOfTorment/language/korean/dialogs.tra~
+LANGUAGE ~Polski (tlumaczenie: Cahir)~
+         ~polish~
+         ~BagsOfTorment/language/polish/setup.tra~
+         ~BagsOfTorment/language/polish/bags.tra~
+         ~BagsOfTorment/language/polish/dialogs.tra~
+LANGUAGE ~Russian (translator: Salazar aka Saigon1983)~
+         ~russian~
+         ~BagsOfTorment/language/russian/setup.tra~
+         ~BagsOfTorment/language/russian/bags.tra~
+         ~BagsOfTorment/language/russian/dialogs.tra~
+
+
+///////////////////////////
+// Containers for PST:EE //
+///////////////////////////
+BEGIN @1
+  REQUIRE_PREDICATE (GAME_IS ~pstee~) @100  // This mod requires PST:EE
+  DESIGNATED 0
+
+  // *** Defining conditional journal entries ***
+  OUTER_TEXT_SPRINT autoJournalLua ~~
+  OUTER_SET strref = RESOLVE_STR_REF (@50001)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 1 ) then setEntryActive(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50002)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 2 ) then setEntryActive(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50003)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 10 ) then setEntryActive(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50004)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 21 ) then setEntryActive(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50005)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 20 ) then setEntryActive(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50100)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 100 ) then setEntryDone(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50101)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 101 ) then setEntryDone(%strref%) end%WNL%~
+  OUTER_SET strref = RESOLVE_STR_REF (@50102)
+  OUTER_TEXT_SPRINT autoJournalLua ~%autoJournalLua%%TAB%if( sv("A7#BLACKHOLE") == 102 ) then setEntryDone(%strref%) end%WNL%~
+  COPY_EXISTING ~bgee.lua~ ~override~
+    REPLACE_TEXTUALLY ~\([%TAB% ]*if[%TAB% ]*(.+)[%TAB% ]*then[%TAB% ]+setEntry.+(-?[0-9]+)[%TAB% ]*end[%TAB% ]*\(--.*\)?[%WNL%]+\)\([%TAB% ]*end[%TAB% ]*\(--.*\)?[%WNL%]\)~
+                      ~\1%autoJournalLua%\3~
+
+
+  // *** Preparing journal entries ***
+  ADD_JOURNAL MANAGED TITLE (@50000) @50001 @50002 @50003 @50004 @50005 @50100 @50101 @50102
+
+
+  // *** Installing "Imp Leather Bag" ***
+  COPY ~%MOD_FOLDER%/bags/a7#bag1.itm~ ~override~
+    SAY NAME1 @1000   // Imp Leather Bag
+    SAY NAME2 @1000   // Imp Leather Bag
+    SAY UNIDENTIFIED_DESC @1001 // Stiched together from the hides of several imps this bag...
+
+  COPY ~%MOD_FOLDER%/bags/a7#bag1.sto~ ~override~
+    SAY NAME2 @1000   // Imp Leather Bag
+
+  COPY ~%MOD_FOLDER%/bags/a7#ibag1.bam~ ~override~
+
+  // Adding to a merchant's store at Hive Marketplace
+  COPY_EXISTING ~merchm.sto~ ~override~
+    ADD_STORE_ITEM ~a7#bag1~ LAST #1 #0 #0 ~identified~ #1
+  BUT_ONLY
+
+
+  // *** Installing "Modron Storage Crystal" ***
+  COPY ~%MOD_FOLDER%/bags/a7#bag2.itm~ ~override~
+    SAY NAME1 @2000   // Modron Storage Crystal
+    SAY NAME2 @2000   // Modron Storage Crystal
+    SAY UNIDENTIFIED_DESC @2001 // This crystal had been cultivated from the same source on Mechanus...
+
+  COPY ~%MOD_FOLDER%/bags/a7#bag2.sto~ ~override~
+    SAY NAME2 @2000   // Modron Storage Crystal
+
+  COPY ~%MOD_FOLDER%/bags/a7#ibag2.bam~ ~override~
+
+  // Add to Evil Wizard Construct in Modron Maze
+  COPY_EXISTING ~cboss.cre~ ~override~
+    REMOVE_CRE_ITEM ~spwi807~
+    ADD_CRE_ITEM ~a7#bag2~ #0 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+  BUT_ONLY
+
+  // Improving EWC's combat script
+  COPY_EXISTING ~1300cwiz.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      // Enable casting of Enoll Eva's Duplication
+      REPLACE_TEXTUALLY ~\(Spell(Player1,WIZARD_MECHANUS_CANNON)\)[ %TAB%%WNL%]+IncrementGlobal("cd_int_0","LOCALS",2)~ ~\1 IncrementGlobal("cd_int_0","LOCALS",1)~
+      // Remove spell scrolls from container when identical spell is used
+      REPLACE_TEXTUALLY ~Spell(Myself,WIZARD_ENOLL_EVAS_DUPLICATION)~ ~RemoveStoreItem("a7#bag2","spwi504",1) \0~ // Enoll Eva's Duplication
+      REPLACE_TEXTUALLY ~Spell(.+,WIZARD_BALL_LIGHTNING)~ ~RemoveStoreItem("a7#bag2","spwi301",1) \0 \0~ // Ball Lightning (2x)
+      REPLACE_TEXTUALLY ~\(WaitRandom(.+,.+)\)[ %TAB%%WNL%]+\(ReallyForceSpellLevel(\[PC\],WIZARD_MAGIC_MISSILE,.+)\)~ ~\1 RemoveStoreItem("a7#bag2","spwi107",1) \2~ // Magic Missile
+      // Increase intervals between spellcasting
+      REPLACE_TEXTUALLY ~\(Set\)\|\(Increment\)Global("cd_int_0","LOCALS",1)~ ~StartRandomTimer(1,3,6) \0~
+      REPLACE_TEXTUALLY ~[ %TAB%]+Global("cd_int_0","LOCALS",[1-9])~ ~!TimerActive(1) \0~
+    END
+  BUT_ONLY
+
+
+  // *** Installing "Pocket Singularity" ***
+  COPY ~%MOD_FOLDER%/bags/a7#bag3.itm~ ~override~
+    SAY NAME1 @3000   // Sealed Pocket Singularity
+    SAY NAME2 @3000   // Sealed Pocket Singularity
+    SAY UNIDENTIFIED_DESC @3001 // What looks like a black orb from afar is actually a transportable...
+  COPY ~%MOD_FOLDER%/bags/a7#bag4.itm~ ~override~
+    SAY NAME1 @4000   // Pocket Singularity
+    SAY NAME2 @4000   // Pocket Singularity
+    SAY UNIDENTIFIED_DESC @4001 // What looks like a black orb from afar is actually a transportable...
+
+  COPY ~%MOD_FOLDER%/bags/a7#bag4.sto~ ~override~
+    SAY NAME2 @4000   // Pocket Singularity
+
+  ACTION_FOR_EACH bamFile IN ~a7#ibag3.bam~ ~a7#ibag4.bam~ BEGIN
+    COPY ~%MOD_FOLDER%/bags/%bamFile%~ ~override~
+      LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+    ACTION_IF (original_base_index >= 0 AND new_base_index >= 0) BEGIN
+      LAF INSTALL_PVRZ
+      INT_VAR
+        original_base_index = original_base_index
+        new_base_index = new_base_index
+      STR_VAR
+        source_file = EVAL ~%MOD_FOLDER%/bags/mos%original_base_index%.pvrz~
+      END
+    END
+  END
+
+  // Assigned to Vrischika from the "Curiosity Shoppe"
+<<<<<<<< .../inlined/0609vris.baf
+IF
+  Die()
+  Global("A7#BlackHole_Buy", "AR0609", 0)
+THEN
+  RESPONSE #100
+    CreateItem("a7#bag3", 0, 0, 0)
+    Continue()
+END
+>>>>>>>>
+  EXTEND_TOP ~0609vris.bcs~ ~.../inlined/0609vris.baf~
+
+  COMPILE ~%MOD_FOLDER%/dialogs/a7#bag3.d~
+          ~%MOD_FOLDER%/dialogs/dvrish.d~
+          ~%MOD_FOLDER%/dialogs/dcoax.d~
+          EVAL
+
+  COPY_EXISTING ~itemdial.2da~ ~override~
+    COUNT_2DA_COLS numCols
+    PATCH_IF (numCols = 3) BEGIN
+      INSERT_2DA_ROW 0 numCols ~A7#BAG3  4251  A7#BAG3~
+    END ELSE PATCH_IF (numCols = 4) BEGIN
+      SET strref = RESOLVE_STR_REF(@3000) // Sealed Pocket Singularity
+      INSERT_2DA_ROW 0 numCols ~A7#BAG3  4251  A7#BAG3 %strref%~
+    END ELSE BEGIN
+      PATCH_WARN ~Unable to install dialog file for container item.~
+    END
+
+
+/////////////////////////////////////////////
+// Increase storage capacity of containers //
+/////////////////////////////////////////////
+BEGIN @10
+  REQUIRE_COMPONENT ~setup-BagsOfTorment.tp2~ 0 @101  // Main component required
+  DESIGNATED 10
+
+  COPY_EXISTING ~a7#bag1.sto~ ~override~
+                ~a7#bag2.sto~ ~override~
+                ~a7#bag4.sto~ ~override~
+    WRITE_SHORT 0x22 32767
+  BUT_ONLY

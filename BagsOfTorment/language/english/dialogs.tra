@@ -1,0 +1,81 @@
+// -*- coding: utf-8 -*- 
+
+// Vrischika lines
+@20000 = ~Examine the exceptionally black orb.~
+@20001 = ~"I don't seem to figure out how to make use of the pocket singularity. Any ideas?"~
+@20002 = ~"Can you tell me once more about how to make use of the pocket singularity?"~
+@20003 = ~You examine a small black and featureless orb. Vrischika picks it up and hands it to you. It is cold to the touch and heavier than it looks. "This orb is said to be a stable portal into an artificial nondimensional space. The previous owner hasn't disclosed more about its nature, but it's not hard to imagine what it can be used for. I will part with it for the bargain of 1000 copper commons."~
+@20004 = ~"I'll take it."~
+@20005 = ~"Actually, let me see the other things again..."~
+@20006 = ~"No thanks. Farewell, Vrischika."~
+@20007 = ~"Hmm, maybe I can help." Her black lips curl into a smile. "But it'll cost you. Pay me another 1000 copper commons and I'll tell you all I know about it."~
+@20008 = ~"I don't have much choice. I'll pay your fee."~
+@20009 = ~"Actually, I had another question..."~
+@20010 = ~"Let's see your merchandise, then."~
+@20011 = ~"That's all I wished to know. Farewell."~
+@20012 = ~"Certainly. Ask Coaxmetal about it. It resides in the Siege Tower. You can enter it from the Lower Wards district."~
+@20013 = ~"I had another question..."~
+@20014 = ~"Yes," Vrischika purrs, "a wise choice." The copper you pour into her hand seems to disappear the moment in touches her palm. "Now listen carefully:"~
+@20015 = ~"I have acquired this artifact not too long ago from a construct called 'Coaxmetal'. It resides in the Siege Tower that can be found in the Lower Wards district. The knowledge how to activate the pocket singularity can be found there. To enter the building you have to find the portal and possess the key to activate it."~
+@20016 = ~"The portal is located at the right side of the tower, on a drawbridge. To activate the portal you have to suppress any desire to enter the tower."~
+@20017 = ~"I have acquired this artifact not too long ago from a construct called 'Coaxmetal' which resides in the Siege Tower that can be found in the Lower Wards district. It gave me the following instructions how to use it:
+
+    Open your left hand and form a circle with your thumb and middle finger. Spread your index and little fingers like this and think 'Open'.
+
+I haven't verified it myself, so decide for yourself what to do with it."~
+@20018 = ~"It's been a pleasure doing business with you."~
+@20019 = ~"But that doesn't answer my question."~
+@20020 = ~"On the contrary. I have delivered exactly what I promised: To tell you all I know about the pocket singularity in your possession."~
+@20021 = ~"Certainly. To activate the pocket singularity follow these instructions to the letter:
+
+Open your left hand and form a circle with your thumb and middle finger. Spread your index and little fingers like this and think 'Open'.~
+@20022 = ~"And what can it be used for?"~
+@20023 = ~"It can be used for storing a great amount of items. Am I right?"~
+@20024 = ~"Isn't it obvious? Objects that are too bulky or heavy to move around by weak mortals can be placed into this artificial space. Once stored it can be moved around or retrieved as one may see fit."~
+@20025 = ~"But of course. I cannot accurately determine the actual dimension of this artificial space, but it should be sufficient for your needs in any case."~
+@20026 = ~"So, have you decided to purchase it?"~
+
+
+// Coaxmetal lines
+@21000 = ~"Can you tell me how to unseal the Pocket Singularity?"~
+@21001 = ~THE ORB IS A PORTAL. A KEY IS NEEDED TO OPEN IT.~
+@21002 = ~"What is the key?"~
+@21003 = ~"I had another question..."~
+@21004 = ~"I see. That is all I wished to know. Farewell."~
+@21005 = ~OPEN YOUR LEFT HAND AND FORM A CIRCLE WITH YOUR THUMB AND MIDDLE FINGER. SPREAD YOUR INDEX AND LITTLE FINGERS LIKE THIS AND THINK "OPEN".~
+@21006 = ~"Before I go, I had other questions..."~
+@21007 = ~"Thank you. Farewell."~
+
+
+// A7#BAG3
+@22000 = ~What looks like a black orb from afar is actually a transportable portal into a nondimensional space. The portal appears to be dormant or sealed, however. No matter how hard you try, you can't find a way to open the black orb.~
+@22001 = ~Examine the orb.~
+@22002 = ~"Hello! Anyone in there?"~
+@22003 = ~Put the item away.~
+@22004 = ~You take a closer look at the orb. At first the surface of the item looks black and featureless. When you relax your eyes a bit you can see some kind of after-image which changes in intensity depending on how you move your left hand. After trying out different gestures the orb flashes briefly and produces a faint permanent halo around it. You can effortless reach into what seems to be an alternate space.~
+@22005 = ~You take a closer look at the orb. The surface of the item looks black and featureless. Remembering the instructions from Coaxmetal you use your left hand to form a specific gesture. Almost immediately the orb flashes briefly and produces a faint permanent halo around it. You can effortless reach into what seems to be an alternate space.~
+@22006 = ~You take a closer look at the orb. The surface of the item looks black and featureless. Remembering the instructions from Vrischika you use your left hand to form a specific gesture. Almost immediately the orb flashes briefly and produces a faint permanent halo around it. You can effortless reach into what seems to be an alternate space.~
+@22007 = ~Morte takes a closer look at the orb. The surface of the item looks black and featureless. Remembering the instructions from Coaxmetal Morte simply shrugs "Hey, chief. Just to let you know, me and my left hand went separate ways long time ago."~
+@22008 = ~Morte takes a closer look at the orb. The surface of the item looks black and featureless. Remembering the instructions from Vrischika Morte simply shrugs "Hey, chief. Just to let you know, me and my left hand went separate ways long time ago."~
+@22009 = ~Nordom takes a closer look at the orb. The surface of the item looks black and featureless. He stares at the orb intently and states "Required: Prehensile multi-fingered structure on left forearm." Nordom *tkkk-tkkk-tkkks* for a moment, then *chrrrups.* "Result: Unable to perform activation sequence for transdimensional portal."~
+@22010 = ~Despite all your shouting the orb doesn't react and stays black, cool and featureless as ever.~
+
+
+// Journal entries
+@50000 = ~Bags of Torment~
+
+@50001 = ~I have purchased a curious artifact from Vrischika, the proprietor of "The Curiosity Shoppe" at Clerk's Ward. It looks exceptionally black and featureless, but doesn't contain any hints about how it can be used. Maybe Vrischika can provide me with the necessary information.~
+
+@50002 = ~I have acquired a curious artifact from Vrischika, the proprietor of "The Curiosity Shoppe" at Clerk's Ward. It looks exceptionally black and featureless, but doesn't contain any hints about how it can be used. Maybe someone more knowledgeable about planar or transdimensional devices can provide me with the necessary information.~
+
+@50003 = ~For a steep fee Vrischika merely told me that Coaxmetal, the resident of the Siege Tower at the Lower Wards, can help me activate the pocket singularity. Money well spent.~
+
+@50004 = ~For a steep fee Vrischika gave me instructions how to activate the portal of the Pocket Singularity.~
+
+@50005 = ~Coaxmetal gave me instructions how to activate the portal of the Pocket Singularity.~
+
+@50100 = ~I have figured out how to activate the orb. It can apparently be used as some kind of container to store a great amount of items of any size and weight.~
+
+@50101 = ~Following the instructions from Coaxmetal I was able to activate the orb. It can apparently be used as some kind of container to store a great amount of items of any size and weight.~
+
+@50102 = ~Following the instructions from Vrischika I was able to activate the orb. It can apparently be used as some kind of container to store a great amount of items of any size and weight.~

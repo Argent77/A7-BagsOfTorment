@@ -1,0 +1,81 @@
+// -*- coding: utf-8 -*- 
+
+// Vrischika lines
+@20000 = ~Guck dir die ungewöhnlich schwarze Kugel an.~
+@20001 = ~"Ich finde einfach keine Möglichkeit, diese Taschensingularität zu aktivieren. Kannst du mir weiterhelfen?"~
+@20002 = ~"Kannst du mir noch einmal erklären, wie ich die Taschensingularität aktivieren kann?"~
+@20003 = ~Du betrachtest diese kleine schwarze und strukturlose Kugel. Vrischika nimmt sie vom Regal und überreicht sie dir. Die Kugel ist kalt und schwerer als sie aussieht. "Diese Kugel soll angeblich ein stabiles Portal in einen künstlichen außerdimensionalen Raum sein. Der Vorbesitzer hat mir nicht viel mehr darüber erzählt. Aber es sollte nicht schwer sein, zu erraten, wozu man die Kugel verwenden kann. Ich würde sie dir für den Sonderpreis von nur 1000 Kupfermünzen überlassen."~
+@20004 = ~"Das nehm ich."~
+@20005 = ~"Laß mich die anderen Sachen noch mal ansehen..."~
+@20006 = ~"Nein, danke. Leb wohl, Vrischika."~
+@20007 = ~Hmm, vielleicht kann ich das." Vrischika lächelt grausam. "Aber diese Hilfe gibt es nicht umsonst. Für weitere 1000 Kupfermünzen werde ich dir alles darüber erzählen, was ich weiß."~
+@20008 = ~"Da habe ich wohl keine andere Wahl. Ich zahle den Preis."~
+@20009 = ~"Ach, vergiß es. Ich hätte noch eine Frage..."~
+@20010 = ~"Dann zeig mal deine Waren."~
+@20011 = ~"Das ist alles, was ich wissen wollte. Leb wohl."~
+@20012 = ~Aber sicher. Frag mal Coaxmetall danach. Dieses Wesen hält sich im Belagerungsturm des Handelsbezirks auf."~
+@20013 = ~"Ich hätte noch eine Frage..."~
+@20014 = ~"Ja", schnurrt Vrischika, "eine weise Wahl." Die Kupfermünzen, die du in ihre Hand schüttest, scheinen zu verschwinden, sobald sie ihre Handfläche berühren. "Dann hör mir aufmerksam zu:"~
+@20015 = ~"Ich habe diesen Gegenstand vor einiger Zeit von dem Konstrukt 'Coaxmetall' erworben. Dieses Wesen kann man im Belagerungsturm des Handelsbezirks finden. Das Wissen, um die Taschensingularität zu aktivieren, kannst du von ihm erlangen. Um den Turm zu betreten, musst du ein Portal finden und aktivieren."~
+@20016 = ~"Das Portal befindet sich auf einer Zugbrücke rechts vom Turm. Um es zu aktivieren, versuche dich darauf zu konzentrieren, den Turm nicht betreten zu wollen."~
+@20017 = ~Ich habe diesen Gegenstand vor einiger Zeit von dem Konstrukt 'Coaxmetall' erworben. Dieses Wesen gab mir die folgenden Anweisungen mit auf den Weg:
+
+    Öffne deine linke Hand und bilde mit Daumen und Mittelfinger eine Kreis. Spreize Zeigefinger und den kleinen Finger und denke an das Wort 'Öffnen'.
+
+Ich habe es noch nicht ausprobiert. Also entscheide selbst, wie du mit dieser Information umgehst."~
+@20018 = ~"Es war mir ein Vergnügen, mit dir Geschäfte zu machen."~
+@20019 = ~"Aber das beantwortet meine Frage nicht."~
+@20020 = ~"Oh doch, natürlich tut es das. Ich habe mein Versprochen eingehalten und dir alles zu dem Gegenstand erzählt, was ich weiß."~
+@20021 = ~"Aber sicher. Um die Taschensingularität zu aktivieren, folge exakt dieser Anweisung:
+
+Öffne deine linke Hand und bilde mit Daumen und Mittelfinger einen Kreis. Spreize Zeigefinger und kleinen Finger und denke an das Wort 'Öffnen'.~
+@20022 = ~"Un wozu genau kann man die Kugel verwenden?"~
+@20023 = ~"Sie kann wahrscheinlich zum Verstauen von Gegenständen verwendet werden. Habe ich recht?"~
+@20024 = ~"Ist es nicht offensichtlich? In diesem künstlichen Raum kann man Gegenstände einlagern, die für schwache Sterbliche zu sperrig oder zu schwer sind. Danach kann man sie ohne Schwierigkeiten mit sich herumtragen oder wieder herausholen."~
+@20025 = ~"Aber sicher doch. Ich kann nicht die genaue Größe des künstlichen Raumes bestimmen. Aber es sollte auf jedem Fall für deine Bedürfnisse ausreichen."~
+@20026 = ~"Wie sieht es aus? Bist du noch daran interessiert, sie zu kaufen?"~
+
+
+// Coaxmetal lines
+@21000 = ~"Kannst du mir sagen, wie ich diese Taschensingularität aktiviere?"~
+@21001 = ~DIESE KUGEL IST EIN PORTAL. EIN SCHLÜSSEL WIRD BENÖTIGT, UM ES ZU ÖFFNEN.~
+@21002 = ~"Wo oder was ist der Schlüssel?"~
+@21003 = ~"Ich hätte noch eine andere Frage..."~
+@21004 = ~"Verstehe. Mehr wollte ich gar nicht wissen. Leb wohl."~
+@21005 = ~ÖFFNE DEINE LINKE HAND UND BILDE MIT DAUMEN UND MITTELFINGER EINE KREIS. SPREIZE ZEIGEFINGER UND DEN KLEINEN FINGER UND DENKE AN DAS WORT 'ÖFFNEN'.~
+@21006 = ~Bevor ich gehe, hätte ich noch ein paar Fragen..."~
+@21007 = ~"Danke. Leb wohl."~
+
+
+// A7#BAG3
+@22000 = ~Was von weitem wie eine schwarze Kugel aussieht, ist in Wirklichkeit ein mobiles Portal in einen außerdimensionalen Raum. Das Portal scheint allerdings inaktiv oder versiegelt zu sein. Egal wie sehr man sich bemüht, es gibt keine Möglichkeit, diese schwarze Kugel zu öffnen.~
+@22001 = ~Guck dir die Kugel genauer an.~
+@22002 = ~"Hallo! Irgendjemand zu Hause?"~
+@22003 = ~Leg den Gegenstand weg.~
+@22004 = ~Du betrachtest die Kugel etwas genauer. Auf den ersten Blick erscheint sie schwarz und strukturlos, aber als du deine Augen etwas entspannst, kannst du eine Art 'Nachbild' erkennen, das auf die Bewegungen deiner linken Hand reagiert. Nachdem du einige verschiedene Handbewegungen ausprobiert hast, blitzt die Kugel kurz auf und erzeugt ein schwaches, aber kontinuierliches Licht um die Kugel herum. Du kannst nun mühelos in den außerdimensionalen Raum hineingreifen.~
+@22005 = ~Du betrachtest die Kugel etwas genauer. Auf den ersten Blick erscheint sie schwarz und strukturlos, aber nachdem du die Anweisungen von Coaxmetall ausgeführt hast, blitzt die Kugel kurz auf und erzeugt ein schwaches, aber kontinuierliches Licht um die Kugel herum. Du kannst nun mühelos in den außerdimensionalen Raum hineingreifen.~
+@22006 = ~Du betrachtest die Kugel etwas genauer. Auf den ersten Blick erscheint sie schwarz und strukturlos, aber nachdem du die Anweisungen von Vrischika ausgeführt hast, blitzt die Kugel kurz auf und erzeugt ein schwaches, aber kontinuierliches Licht um die Kugel herum. Du kannst nun mühelos in den außerdimensionalen Raum hineingreifen.~
+@22007 = ~Morte betrachtet die Kugel etwas genauer. Obwohl er weiß, wie man sie aktivieren kann, schaut er dich nur groß an und sagt "Hey, Meister. Ich wollte dich nur daran erinnern, dass ich und meine linke Hand schon vor langer Zeit getrennte Wege gegangen sind."~
+@22008 = ~Morte betrachtet die Kugel etwas genauer. Obwohl er weiß, wie man sie aktivieren kann, schaut er dich nur groß an und sagt "Hey, Meister. Ich wollte dich nur daran erinnern, dass ich und meine linke Hand schon vor langer Zeit getrennte Wege gegangen sind."~
+@22009 = ~Nordom betrachtet die Kugel für einige Zeit sehr intensiv. "Voraussetzung: Greiffähige Hand mit mehreren Fingern am linken Unterarm." Nordom *tkkk-tkkk-tkkkt* kurz, dann *schrappt* er: "Ergebnis: Keine Möglichkeit die notwendige Aktivierungssequenz für transdimensionales Portal durchzuführen."~
+@22010 = ~Die Kugel scheint auf deine Fragen nicht zu reagieren. Sie liegt einfach nur in ihrer schwarzen und strukturlosen Form in deiner Hand.~
+
+
+// Journal entries
+@50000 = ~Torments Taschen~
+
+@50001 = ~Ich habe einen seltsamen Gegenstand von Vrischika, der Besitzerin des Kuriositätenladens im Koratorenbezirk, erworben. Er sieht außergewöhnlich schwarz und strukturlos aus. Ich habe keine Ahnung, wie man ihn benutzen kann. Vielleicht kann mir Vrischika weiterhelfen.~
+
+@50002 = ~Ich habe einen seltsamen Gegenstand von Vrischika, der Besitzerin des Kuriositätenladens im Koratorenbezirk, an mich gebracht. Er sieht außergewöhnlich schwarz und strukturlos aus. Ich habe keine Ahnung, wie man ihn benutzen kann. Vielleicht gibt es jemanden mit mehr Erfahrung im Umgang mit außerdimensionalen Gerätschaften, der mir weiterhelfen kann.~
+
+@50003 = ~Für die hohe Summe, die ich zahlen musste, hatte mir Vrischika erstaunlich wenig geboten. Sie empfahl mir Coaxmetall aufzusuchen, um die Taschensingularität zu aktivieren. Er hält sich im Belagerungsturm auf, der zur Zeit im Handelsbezirk zu finden ist. Schade um die vielen Kupfermünzen, die dafür in ihre Tasche wanderten.~
+
+@50004 = ~Gegen eine (nicht so) geringe Gebühr verriet mir Vrischika, wie ich die Taschensingularität aktivieren kann.~
+
+@50005 = ~Coaxmetall verriet mir, wie ich die Taschensingularität aktivieren kann.~
+
+@50100 = ~Ich habe selbst herausgefunden, wie man die Taschensingularität aktivieren kann. Es scheint eine Art nimmervoller Beutel zu sein, in dem man eine große Anzahl an Gegenständen jeglicher Größe einlagern kann.~
+
+@50101 = ~Dank der Anweisungen von Coaxmetall konnte ich die Taschensingularität aktivieren. Es scheint eine Art nimmervoller Beutel zu sein, in dem man eine große Anzahl an Gegenständen jeglicher Größe einlagern kann.~
+
+@50102 = ~Dank der Anweisungen von Vrischika konnte ich die Taschensingularität aktivieren. Es scheint eine Art nimmervoller Beutel zu sein, in dem man eine große Anzahl an Gegenständen jeglicher Größe einlagern kann.~
