@@ -96,8 +96,12 @@ BEGIN @1
 
   // Add to Evil Wizard Construct in Modron Maze
   COPY_EXISTING ~cboss.cre~ ~override~
-    REMOVE_CRE_ITEM ~spwi807~
     ADD_CRE_ITEM ~a7#bag2~ #0 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~spwi504~ #1 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~spwi301~ #1 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~spwi107~ #1 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~spwi107~ #1 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~spwi107~ #1 #0 #0 ~identified&unstealable~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
   BUT_ONLY
 
   // Improving EWC's combat script
@@ -106,14 +110,50 @@ BEGIN @1
       // Enable casting of Enoll Eva's Duplication
       REPLACE_TEXTUALLY ~\(Spell(Player1,WIZARD_MECHANUS_CANNON)\)[ %TAB%%WNL%]+IncrementGlobal("cd_int_0","LOCALS",2)~ ~\1 IncrementGlobal("cd_int_0","LOCALS",1)~
       // Remove spell scrolls from container when identical spell is used
-      REPLACE_TEXTUALLY ~Spell(Myself,WIZARD_ENOLL_EVAS_DUPLICATION)~ ~RemoveStoreItem("a7#bag2","spwi504",1) \0~ // Enoll Eva's Duplication
-      REPLACE_TEXTUALLY ~Spell(.+,WIZARD_BALL_LIGHTNING)~ ~RemoveStoreItem("a7#bag2","spwi301",1) \0 \0~ // Ball Lightning (2x)
-      REPLACE_TEXTUALLY ~\(WaitRandom(.+,.+)\)[ %TAB%%WNL%]+\(ReallyForceSpellLevel(\[PC\],WIZARD_MAGIC_MISSILE,.+)\)~ ~\1 RemoveStoreItem("a7#bag2","spwi107",1) \2~ // Magic Missile
+      REPLACE_TEXTUALLY ~Spell(Myself,WIZARD_ENOLL_EVAS_DUPLICATION)~ ~DestroyItem("spwi504") \0~ // Enoll Eva's Duplication
+      REPLACE_TEXTUALLY ~Spell(.+,WIZARD_BALL_LIGHTNING)~ ~DestroyItem("spwi301") \0 \0~ // Ball Lightning (2x)
+      REPLACE_TEXTUALLY ~\(WaitRandom(.+,.+)\)[ %TAB%%WNL%]+\(ReallyForceSpellLevel(\[PC\],WIZARD_MAGIC_MISSILE,.+)\)~ ~\1 DestroyItem("spwi107") \2~ // Magic Missile
       // Increase intervals between spellcasting
       REPLACE_TEXTUALLY ~\(Set\)\|\(Increment\)Global("cd_int_0","LOCALS",1)~ ~StartRandomTimer(1,3,6) \0~
       REPLACE_TEXTUALLY ~[ %TAB%]+Global("cd_int_0","LOCALS",[1-9])~ ~!TimerActive(1) \0~
     END
   BUT_ONLY
+
+  // Crystal is only available when defeating the EWC for the first time
+<<<<<<<< .../inlined/1300cwiz_multi.baf
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("A7#EWCCount","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("A7#EWCCount","GLOBAL",0)
+  Global("A7#Init","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A7#Init","LOCALS",1)
+    Continue()
+END
+
+IF
+  GlobalGT("A7#EWCCount","GLOBAL",0)
+  Global("A7#Init","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A7#Init","LOCALS",1)
+    DestroyItem("a7#bag2")
+    DestroyItem("spwi504")
+    DestroyItem("spwi301")
+    DestroyItem("spwi107")
+    DestroyItem("spwi107")
+    DestroyItem("spwi107")
+    Continue()
+END
+>>>>>>>>
+  EXTEND_TOP ~1300cwiz.bcs~ ~.../inlined/1300cwiz_multi.baf~
 
 
   // *** Installing "Pocket Singularity" ***
