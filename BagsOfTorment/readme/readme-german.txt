@@ -1,7 +1,7 @@
 Torments Taschen
 ~~~~~~~~~~~~~~~~
 
-Version:    0.10-beta
+Version:    0.11-beta
 Autor:      Argent77
 
 Download:   https://

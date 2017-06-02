@@ -1,7 +1,7 @@
 Bags of Torment
 ~~~~~~~~~~~~~~~
 
-Version:    0.10-beta
+Version:    0.11-beta
 Author:     Argent77
 
 Download:   https://
