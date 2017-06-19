@@ -1,10 +1,10 @@
 Torments Taschen
 ~~~~~~~~~~~~~~~~
 
-Version:    0.11-beta
+Version:    1.0
 Autor:      Argent77
 
-Download:   https://
+Download:   https://github.com/Argent77/A7-BagsOfTorment/releases/latest
 Diskussion: https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
 
 
@@ -67,3 +67,5 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 History
 ~~~~~~~
 
+1.0
+- Initial release

@@ -1,10 +1,10 @@
 Bags of Torment
 ~~~~~~~~~~~~~~~
 
-Версия:    0.11-beta
+Версия:    1.0
 Автор:     Argent77
 
-Ссылка на скачивание: https://
+Ссылка на скачивание: https://github.com/Argent77/A7-BagsOfTorment/releases/latest
 Ветка форума:         https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
 
 
@@ -67,3 +67,5 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 History
 ~~~~~~~
 
+1.0
+- Initial release

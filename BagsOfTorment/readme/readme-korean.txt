@@ -1,10 +1,10 @@
 토먼트의 가방들
 ~~~~~~~~~~~~~~
 
-버전:      0.11-beta
+버전:      1.0
 제작자:    Argent77
 
-다운로드:  https://
+다운로드:  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
 논의:     https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
 
 
@@ -67,3 +67,5 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 History
 ~~~~~~~
 
+1.0
+- Initial release
