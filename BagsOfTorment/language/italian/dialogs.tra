@@ -1,0 +1,81 @@
+// -*- coding: utf-8 -*- 
+
+// Vrischika lines
+@20000 = ~Esamini il globo eccezionalmente scuro.~
+@20001 = ~"Non riesco a capire come utilizzare la Singolarità Tascabile. Qualche idea?"~
+@20002 = ~"Potresti ripetermi come utilizzare la Singolarità Tascabile?"~
+@20003 = ~Esamini un piccolo globo nero senza caratteristiche particolari. Vrischika lo prende e te lo passa. È freddo al tocco e più pesante di quanto sembri. "Si dice che questo globo sia un portale stabile verso uno spazio nondimensionale artificiale. Il precedente proprietario non ha divulgato altro sulla sua natura, ma non è difficile immaginare a cosa possa servire. Me ne separerò in cambio di 1000 pezzi di rame".~
+@20004 = ~"Lo prendo".~
+@20005 = ~"Preferirei vedere di nuovo gli altri tuoi articoli..."~
+@20006 = ~"No, grazie. Addio, Vrischika".~
+@20007 = ~"Hmm, forse posso aiutarti." Le sue labbra nere si incurvano in un sorriso. "Ma ti costerà. Pagami altri 1000 pezzi di rame e ti dirò tutto ciò che so a riguardo".~
+@20008 = ~"Non ho molta scelta. Pagherò il tuo prezzo".~
+@20009 = ~"In realtà, ho un'altra domanda..."~
+@20010 = ~"Fammi vedere la tua merce, allora".~
+@20011 = ~"È tutto quello che volevo sapere. Addio".~
+@20012 = ~"Certo. Puoi interrogare Coaxmetal a riguardo. Abita nella Torre d'Assedio. Puoi accedervi dal Distretto Inferiore".~
+@20013 = ~"Ho un'altra domanda..."~
+@20014 = ~"Sì", fa le fusa Vrischika, "una scelta saggia". Il rame che metti nelle sue mani sembra sparire il momento stesso che tocca il palmo della sua mano. "Ora ascolta attentamente:"~
+@20015 = ~"Ho acquistato questo artefatto non molto tempo fa da un costrutto chiamato 'Coaxmetal'. Vive nella Torre d'Assedio che si trova nel Distretto Inferiore. Lì puoi trovare il sapere necessario ad attivare la Singolarità Tascabile. Per entrare nell'edificio, devi trovare il portale e possedere la chiave per attivarlo".~
+@20016 = ~"Il portale si trova lungo il lato destro della torre, su un ponte levatoio. Per attivare il portale, devi sopprimere ogni desiderio di entrare nella torre".~
+@20017 = ~"Ho acquistato questo artefatto non molto tempo fa da un costrutto chiamato 'Coaxmetal'. Vive nella Torre d'Assedio che si trova nel Distretto Inferiore. Mi ha dato le seguenti istruzioni su come utilizzarlo:
+
+    Apri la tua mano sinistra e forma un cerchio utilizzando il pollice e il dito medio. Distendi il tuo indice e le altre due dita così e pensa "Apri".
+
+Non ho potuto verificarlo in prima persona, perciò scegli tu cosa farne".~
+@20018 = ~"È stato un piacere fare affari con te".~
+@20019 = ~"Ma questo non risponde alla mia domanda".~
+@20020 = ~"Al contrario. Ho compiuto esattamente quanto promesso: Dirti tutto ciò so sulla Singolarità Tascabile in tuo possesso".~
+@20021 = ~"Certamente. Per attivare la Singolarità Tascabile, segui queste indicazioni alla lettera:
+
+Apri la tua mano sinistra e forma un cerchio utilizzando il pollice e il dito medio. Distendi il tuo indice e le altre due dita così e pensa 'Apri'".~
+@20022 = ~"E a cosa può servire?"~
+@20023 = ~"Serve per immagazzinare un gran numero di oggetti. Ho ragione?"~
+@20024 = ~"Non è ovvio? Oggetti che sono troppo ingombranti o pesanti da spostare per dei deboli mortali possono essere posti in questo spazio artificiale. Una volta immagazzinati, possono essere portati in giro o recuperati come più si desidera".~
+@20025 = ~"Ma naturalmente. Non posso determinare con precisione l'attuale dimensione di questo spazio artificiale, ma in ogni caso dovrebbe essere sufficiente per le tue necessità".~
+@20026 = ~"Quindi, hai deciso di acquistarlo?"~
+
+
+// Coaxmetal lines
+@21000 = ~"Puoi dirmi come posso togliere il sigillo alla Singolarità Tascabile?"~
+@21001 = ~IL GLOBO È UN PORTALE. È NECESSARIA UNA CHIAVE PER APRIRLO.~
+@21002 = ~"Qual è la chiave?"~
+@21003 = ~"Ho un'altra domanda..."~
+@21004 = ~"Capisco. È tutto quello che volevo sapere".~
+@21005 = ~APRI LA TUA MANO SINISTRA E FORMA UN CERCHIO UTILIZZANDO IL POLLICE E IL DITO MEDIO. DISTENDI LE ALTRE DUE DITA E PENSA "APRI".~
+@21006 = ~"Prima di andare, ho altre domande..."~
+@21007 = ~"Grazie. Addio".~
+
+
+// A7#BAG3
+@22000 = ~Ciò che da lontano sembra un globo nero è in realtà un portale trasportabile in uno spazio non dimensionale. Il portale sembra però essere dormiente o sigillato. Non importa quanto duramente ci provi: non trovi un modo per aprire il globo nero.~
+@22001 = ~Esamini il globo.~
+@22002 = ~"Salve! C'è qualcuno dentro?"~
+@22003 = ~Metti via l'oggetto.~
+@22004 = ~Dai un'occhiata più da vicino al globo. Inizialmente, la superficie dell'oggetto sembra nera e senza caratteristiche particolari. Quando rilassi un po' i tuoi occhi, riesci a vedere una specie di immagine residua che cambia intensità a seconda di come muovi la tua mano sinistra. Dopo aver provato diversi gesti, il globo brilla brevemente e viene circondato da un tenue alone. Riesci a raggiungere facilmente l'interno di quello che sembra essere uno spazio alternativo.~
+@22005 = ~Dai un'occhiata più da vicino al globo. La superficie dell'oggetto sembra nera e senza caratteristiche particolari. Ricordando le istruzioni di Coaxmetal, usi la tua mano sinistra per formare un gesto specifico. Quasi immediatamente, il globo brilla brevemente e viene circondato da un tenue alone. Riesci a raggiungere facilmente l'interno di quello che sembra essere uno spazio alternativo.~
+@22006 = ~Dai un'occhiata più da vicino al globo. La superficie dell'oggetto sembra nera e senza caratteristiche particolari. Ricordando le istruzioni di Vrischika, usi la tua mano sinistra per formare un gesto specifico. Quasi immediatamente, il globo brilla brevemente e viene circondato da un tenue alone. Riesci a raggiungere facilmente l'interno di quello che sembra essere uno spazio alternativo.~
+@22007 = ~Morte da un'occhiata più da vicino al globo. La superficie dell'oggetto sembra nera e senza caratteristiche particolari. Ricordando le istruzioni di Coaxmetal, Morte semplicemente fa spallucce: "Ehi, capo. Giusto perché tu lo sappia, io e la mia mano sinistra siamo stati separati parecchio tempo fa".~
+@22008 = ~Morte da un'occhiata più da vicino al globo. La superficie dell'oggetto sembra nera e senza caratteristiche particolari. Ricordando le istruzioni di Vrischika, Morte semplicemente fa spallucce: "Ehi, capo. Giusto perché tu lo sappia, io e la mia mano sinistra siamo stati separati parecchio tempo fa".~
+@22009 = ~Nordom da un'occhiata più da vicino al globo. La superficie dell'oggetto sembra nera e senza caratteristiche particolari. Osserva l'oggetto con attenzione e afferma: "Richiesta: Struttura prensile dotata di multiple appendici digitali sull'avambraccio sinistro". Da Nordom emette un *tkkk-tkkk-tkkk* per un momento, poi un *chrrrup*. "Risultato: Incapace di mettere in pratica la sequenza di attivazione necessaria ad attivare il portale transdimensionale".~
+@22010 = ~Nonostante tutto il tuo vociare, il globo non reagisce e resta nero, freddo e senza caratteristiche particolari.~
+
+
+// Journal entries
+@50000 = ~Borse di Torment~
+
+@50001 = ~Ho acquistato un curioso artefatto da Vrischika, la proprietaria della Bottega delle Curiosità nel Distretto degli Impiegati. È eccezionalmente nero e semplice, ma non contiene alcun suggerimento su come possa essere usato. Forse Vrischika può fornirmi le informazioni necessarie.~
+
+@50002 = ~Ho acquistato un curioso artefatto da Vrischika, la proprietaria della Bottega delle Curiosità nel Distretto degli Impiegati. È eccezionalmente nero e semplice, ma non contiene alcun suggerimento su come possa essere usato. Forse qualcuno con maggiori conoscenze sui Piani o sui dispositivi transdimensionali può fornirmi le informazioni necessarie.~
+
+@50003 = ~Per una cifra piuttosto esosa, Vrischika si è limitata a dirmi che Coaxmetal, l'abitante della Torre d'Assedio nel Distretto Inferiore, può aiutarmi ad attivare la Singolarità Tascabile. Soldi ben spesi.~
+
+@50004 = ~Per una cifra piuttosto esosa, Vrischika mi ha dato le istruzioni per attivare la Singolarità Tascabile.~
+
+@50005 = ~Coaxmetal mi ha dato le istruzioni per attivare la Singolarità Tascabile.~
+
+@50100 = ~Ho capito come attivare il globo. Sembra che possa essere usato come una specie di contenitore per immagazzinare una grande quantità di oggetti di ogni forma e peso.~
+
+@50101 = ~Seguendo le istruzioni di Coaxmetal, sono riuscito ad attivare il globo. Sembra che possa essere usato come una specie di contenitore per immagazzinare una grande quantità di oggetti di ogni forma e peso.~
+
+@50102 = ~Seguendo le istruzioni di Vrischika, sono riuscito ad attivare il globo. Sembra che possa essere usato come una specie di contenitore per immagazzinare una grande quantità di oggetti di ogni forma e peso.~

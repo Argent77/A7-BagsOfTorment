@@ -57,6 +57,7 @@ Writing, coding and testing: Argent77
 Polish translation: Cahir
 Korean translation: Teflon
 Russion translation: Salazar aka Saigon1983
+Italian translation: Azy, Aedan and improbabile
 
 Icon for Pocket Singularity based on resources from Age Of Wonders - Shadow Magic.
 
@@ -70,6 +71,9 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.1
+- Added Italian translation (thanks Azy, Aedan and improbabile)
 
 1.0
 - Initial release
