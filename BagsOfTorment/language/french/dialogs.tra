@@ -1,0 +1,81 @@
+// -*- coding: utf-8 -*- 
+
+// Vrischika lines
+@20000 = ~Examine l'orbe particulièrement noir.~
+@20001 = ~"Je n'arrive pas à comprendre comment utiliser la singularité de poche. As-tu une idée ?"~
+@20002 = ~"Peux-tu me rappeler comment utiliser la singularité de poche ?"~
+@20003 = ~Tu examines un petit orbe noir et lisse. Vrischika l'attrape et te l'amène : il est froid au toucher et plus lourd qu'il n'en a l'air. "On dit que cet orbe est un portail stable vers un espace non dimensionnel artificiel. Son propriétaire précédent ne m'en a pas dit beaucoup plus, mais on imagine assez facilement à quoi il pourrait servir. Je suis prête à m'en séparer pour 1000 pièces de cuivre."~
+@20004 = ~"Je vais le prendre."~
+@20005 = ~"Laisse-moi plutôt voir ce que tu as d'autre…"~
+@20006 = ~"Non merci. Au revoir, Vrischika."~
+@20007 = ~"Hum, je peux peut-être t'aider." Ses lèvres noires forment un sourire. "Contre une somme raisonnable. Paie-moi encore 1000 pièces de cuivre, et je te dirai tout ce que je sais concernant cet objet."~
+@20008 = ~"Ce n'est pas comme si j'avais le choix. Je vais payer."~
+@20009 = ~"En fait j'ai une autre question…"~
+@20010 = ~"Montre-moi plutôt tes marchandises."~
+@20011 = ~"C'est tout ce que je voulais savoir. Au revoir."~
+@20012 = ~"Bien sûr. Demande à Coaxmétal - il se trouve dans la tour de siège. Tu peux y entrer depuis le Quartier Marchand."~
+@20013 = ~"J'ai une autre question…"~
+@20014 = ~"Bien," ronronne Vrischika, "un choix des plus sages." Le cuivre que tu lui mets dans les mains semble disparaître dès qu'il touche sa paume. "Maintenant, écoute attentivement :"~
+@20015 = ~"J'ai acquis cet objet il n'y a pas très longtemps, auprès d'une construction appelée 'Coaxmétal'. Tu peux le trouver dans la tour de siège du Quartier Marchand. Il pourra te dire comment faire fonctionner la singularité de poche. Tu as besoin de trouver le portail et d'avoir la clé qui l'active pour entrer dans la tour."~
+@20016 = ~"Le portail se trouve du côté droit de la tour, sur un pont-levis. Pour activer ce portail, il te suffit de penser que tu ne veux pas y entrer."~
+@20017 = ~"J'ai acquis cet objet il n'y a pas très longtemps, auprès d'une construction appelée 'Coaxmétal', qu'on peut trouver dans la tour de siège du Quartier Marchand. Il m'a donné les instructions suivantes pour l'utiliser :
+
+    Ouvre ta main gauche, et forme un cercle avec ton pouce et ton majeur. Écarte ensuite ton index et tes petits doigts de cette façon, et pense 'Ouvert'.
+
+Je n'ai pas testé moi-même, donc à toi de voir ce que tu veux en faire."~
+@20018 = ~"Ça a été un plaisir de faire affaire avec toi."~
+@20019 = ~"Ça ne répond pas vraiment à ma question."~
+@20020 = ~"Bien sûr que si. Je t'ai dit exactement ce que je t'ai promis : tout ce que je sais sur la singularité de poche en ta possession."~
+@20021 = ~"Bien sûr. Tu dois suivre à la lettre les instructions suivantes :
+
+Ouvre ta main gauche, et forme un cercle avec ton pouce et ton majeur. Écarte ensuite ton index et tes petits doigts de cette façon, et pense 'Ouvert'."~
+@20022 = ~"Et à quoi ça sert ?"~
+@20023 = ~"Il peut être utilisé pour stocker un grand nombre d'objets. C'est bien ça ?"~
+@20024 = ~"N'est-ce pas évident ? Les objets qui sont trop encombrants ou trop lourds pour les faibles mortels peuvent être placés dans cet espace artificiel. Une fois stockés, ils peuvent être déplacés ou récupérés comme bon te semble."~
+@20025 = ~"Évidement. Je ne peux pas déterminer avec précision la taille de cet espace artificiel, mais il devrait être suffisant pour tes besoins."~
+@20026 = ~"Donc, tu as décidé de l'acheter ?"~
+
+
+// Coaxmetal lines
+@21000 = ~"Peux-tu me dire comment utiliser la singularité de poche ?"~
+@21001 = ~L'ORBE EST UN PORTAIL. POUR L'OUVRIR, UNE CLÉ EST NÉCESSAIRE.~
+@21002 = ~"Et quelle est cette clé ?"~
+@21003 = ~"J'ai une autre question…"~
+@21004 = ~"Je vois. C'est tout ce que je voulais savoir. Au revoir."~
+@21005 = ~OUVRE TA MAIN GAUCHE, ET FORME UN CERCLE AVEC TON POUCE ET TON MAJEUR. ÉCARTE ENSUITE TON INDEX ET TES PETITS DOIGTS DE CETTE FAÇON, ET PENSE 'OUVERT'.~
+@21006 = ~"Avant de partir, j'ai d'autres questions…"~
+@21007 = ~"Merci. Au revoir."~
+
+
+// A7#BAG3
+@22000 = ~Cet orbe noir est en fait un portail miniature vers un espace non dimensionnel. Mais le portail semble dormant, voire condamné. Malgré tes nombreux essais, tu ne parviens pas à ouvrir l'orbe noir.~
+@22001 = ~Examine l'orbe.~
+@22002 = ~"Bonjour ! Il y a quelqu'un la-dedans ?"~
+@22003 = ~Laisse l'orbe.~
+@22004 = ~Tu examines l'orbe plus attentivement. La surface de l'objet semble noire et lisse. Mais un examen plus approfondi te permet de distinguer des sortes d'images résiduelles, qui changent d'intensité en fonction des mouvements de ta main gauche. Après avoir essayé plusieurs gestes, l'orbe brille brièvement et émet une faible lueur. Tu peux atteindre facilement ce qui semble être un espace dimensionnel caché.~
+@22005 = ~Tu examines l'orbe plus attentivement. La surface de l'objet semble noire et lisse. Te rappelant les instructions, tu reproduis le geste indiqué par Coaxmétal. Presque immédiatement, l'orbe brille et émet une faible lueur. Tu peux atteindre facilement ce qui semble être un espace dimensionnel caché.~
+@22006 = ~Tu examines l'orbe plus attentivement. La surface de l'objet semble noire et lisse. Te rappelant les instructions, tu reproduis le geste indiqué par Vrischika. Presque immédiatement, l'orbe brille et émet une faible lueur. Tu peux atteindre facilement ce qui semble être un espace dimensionnel caché.~
+@22007 = ~Morte examine l'orbe attentivement. La surface de l'objet semble noire et lisse. Se rappelant les instructions de Coaxmétal, Morte hausse simplement les sourcils. "Hé chef. Juste pour ton information, ma main gauche et moi avons été séparés il y a un bout de temps."~
+@22008 = ~Morte examine l'orbe attentivement. La surface de l'objet semble noire et lisse. Se rappelant les instructions de Vrischika, Morte hausse simplement les sourcils. "Hé chef. Juste pour ton information, ma main gauche et moi avons été séparés il y a un bout de temps."~
+@22009 = ~Nordom examine l'orbe attentivement. La surface de l'objet semble noire et lisse. Il le fixe intensément du regard, puis déclare : "Nécessite : structure avec plusieurs doigts préhensibles au bras gauche." Nordom émet des *tkkk-tkkk-tkkks* pendant un moment, avec un *chrrrups* final. "Résultat : impossible d'effectuer la séquence d'activation du portail multi-dimensionnel."~
+@22010 = ~Malgré vos efforts, l'orbe ne réagit pas et reste aussi noir, froid et lisse que jamais.~
+
+
+// Journal entries
+@50000 = ~Les sacs du tourment~
+
+@50001 = ~J'ai acheté un étrange artefact à Vrischika, la propriétaire de la boutique de curiosité du quartier des Gratte-papiers. Il est très noir et lisse, mais j'ignore comment l'utiliser. Peut-être que Vrischika pourra m'indiquer comment faire.~
+
+@50002 = ~J'ai acheté un étrange artefact à Vrischika, la propriétaire de la boutique de curiosité du quartier des Gratte-papiers. Il est très noir et lisse, mais j'ignore comment l'utiliser. Peut-être que quelqu'un connaissant les objets planaires ou transdimentionnels pourra m'indiquer comment faire.~
+
+@50003 = ~Pour une forte somme, Vrischika m'a dit que Coaxmétal, le résident de la tour de siège du Quartier Marchand, peut m'aider à activer la singularité de poche. De l'argent bien dépensé.~
+
+@50004 = ~Pour une forte somme, Vrischika m'a expliqué comment activer le portail de la singularité de poche.~
+
+@50005 = ~Coaxmétal m'a expliqué comment activer le portail de la singularité de poche.~
+
+@50100 = ~J'ai découvert comment activer l'orbe. Il semblerait que je puisse l'utiliser pour stocker un grand nombre d'objets de n'importe quelle taille et poids.~
+
+@50101 = ~J'ai activé l'orbe en suivant les instructions de Coaxmétal. Il semblerait que je puisse l'utiliser pour stocker un grand nombre d'objets de n'importe quelle taille et poids.~
+
+@50102 = ~J'ai activé l'orbe en suivant les instructions de Vrischika. Il semblerait que je puisse l'utiliser pour stocker un grand nombre d'objets de n'importe quelle taille et poids.~

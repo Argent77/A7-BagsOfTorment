@@ -1,0 +1,29 @@
+// -*- coding: utf-8 -*- 
+
+@1000 = ~Sac en cuir de diablotin~
+@1001 = ~SAC EN CUIR DE DIABLOTIN
+Poids : 2
+
+Réalisé avec les peaux de plusieurs diablotins cousues ensembles, ce sac est étonnamment souple et léger. Malgré sa petite taille, il est assez élastique pour transporter une bonne quantité de charmes, clés, anneaux et autres trouvailles.~
+
+@2000 = ~Cristal de stockage modrone~
+@2001 = ~CRISTAL DE STOCKAGE MODRONE
+Poids : 2
+
+Ce cristal est issu de la même source d'où viennent tous les modrones de Méchanus. Ses propriétés uniques te permettent de stocker et récupérer toutes sortes d'informations. Étrangement, les objets sont détruits lors du processus de stockage. Mais le cristal reproduit avec fidélité les objets stockés lorsque tu les réclames. Il accepte tous les parchemins, notes, livres et grimoires.~
+
+@3000 = ~Singularité de poche inactive~
+@3001 = ~SINGULARITÉ DE POCHE INACTIVE
+Poids : 5
+
+Cet orbe noir est en fait un portail miniature vers un espace non dimensionnel. Les informations concernant cet objet sont peu nombreuses, car l'inventeur de ce curieux dispositif à depuis longtemps été totalement oublié.
+
+Mais le portail semble dormant, voire condamné. Malgré tes nombreux essais, tu ne parviens pas à ouvrir l'orbe noir.~
+
+@4000 = ~Singularité de poche~
+@4001 = ~SINGULARITÉ DE POCHE
+Poids : 5
+
+Cet orbe noir est en fait un portail miniature vers un espace non dimensionnel. Les informations concernant cet objet sont peu nombreuses, car l'inventeur de ce curieux dispositif à depuis longtemps été totalement oublié.
+
+Mais en reproduisant un geste particulier avec ta main gauche, l'orbe s'active et ouvre un petit portail vers un lieu inconnu. Peu importe les objets que tu mets dans l'orbe, il garde toujours le même poids.~
