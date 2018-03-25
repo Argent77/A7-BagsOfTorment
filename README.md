@@ -7,7 +7,7 @@ A mod for Planescape Torment: Enhanced Edition.
 
 This mod adds a number of containers to the game which can be purchased from various shops. One of the containers may also trigger a small quest.
 
-*Available languages: English, German, Korean, Polish and Russian.*
+*Available languages: English, French, German, Italian, Korean, Polish and Russian.*
 
 ## Components
 
