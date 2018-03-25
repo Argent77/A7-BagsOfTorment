@@ -1,7 +1,7 @@
 토먼트의 가방들
 ~~~~~~~~~~~~~~
 
-버전:      1.0
+버전:      1.1
 제작자:    Argent77
 
 다운로드:  https://github.com/Argent77/A7-BagsOfTorment/releases/latest

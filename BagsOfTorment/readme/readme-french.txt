@@ -1,7 +1,7 @@
 Les sacs du tourment
 ~~~~~~~~~~~~~~~~~~~~
 
-Version :    1.0
+Version :    1.1
 Auteur :     Argent77
 
 Téléchargement :   https://github.com/Argent77/A7-BagsOfTorment/releases/latest

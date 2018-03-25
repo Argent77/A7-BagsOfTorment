@@ -1,7 +1,7 @@
 Bags of Torment
 ~~~~~~~~~~~~~~~
 
-Версия:    1.0
+Версия:    1.1
 Автор:     Argent77
 
 Ссылка на скачивание: https://github.com/Argent77/A7-BagsOfTorment/releases/latest
