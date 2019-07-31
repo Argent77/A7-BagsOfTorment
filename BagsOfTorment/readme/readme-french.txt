@@ -1,11 +1,13 @@
 Les sacs du tourment
 ~~~~~~~~~~~~~~~~~~~~
 
-Version :    1.1
-Auteur :     Argent77
+Version :         1.1
+Auteur :          Argent77
 
-Téléchargement :   https://github.com/Argent77/A7-BagsOfTorment/releases/latest
-Discussion : https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
+Téléchargement :  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
+                  http://www.shsforums.net/files/file/1224-bags-of-torment/
+Discussion :      https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
+                  http://www.shsforums.net/topic/60063-bags-of-torment-pstee/
 
 
 Présentation

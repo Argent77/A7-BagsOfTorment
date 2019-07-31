@@ -5,7 +5,9 @@
 제작자:    Argent77
 
 다운로드:  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
+          http://www.shsforums.net/files/file/1224-bags-of-torment/
 논의:     https://forums.beamdog.com/discussion/64241/mod-bags-of-torment/p1
+          http://www.shsforums.net/topic/60063-bags-of-torment-pstee/
 
 
 개요
