@@ -227,7 +227,7 @@ END
 // Increase storage capacity of containers //
 /////////////////////////////////////////////
 BEGIN @10
-  REQUIRE_COMPONENT ~setup-BagsOfTorment.tp2~ 0 @101  // Main component required
+  REQUIRE_COMPONENT ~BagsOfTorment.tp2~ 0 @101  // Main component required
   DESIGNATED 10
 
   COPY_EXISTING ~a7#bag1.sto~ ~override~
