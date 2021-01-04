@@ -1,7 +1,7 @@
 Les sacs du tourment
 ~~~~~~~~~~~~~~~~~~~~
 
-Version :         1.1
+Version :         1.2
 Auteur :          Argent77
 
 Téléchargement :  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -68,6 +68,12 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.2
+- Added Project Infinity metadata
+- Added German translation for WeiDU prompts
+- Added WeiDU SUPPORT information
+- Updated links in readme
 
 1.1
 - Added French translation (thanks mirandir)

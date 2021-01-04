@@ -1,7 +1,7 @@
 Torments Taschen
 ~~~~~~~~~~~~~~~~
 
-Version:    1.1
+Version:    1.2
 Autor:      Argent77
 
 Download:   https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -70,6 +70,12 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.2
+- Added Project Infinity metadata
+- Added German translation for WeiDU prompts
+- Added WeiDU SUPPORT information
+- Updated links in readme
 
 1.1
 - Added French translation (thanks mirandir)

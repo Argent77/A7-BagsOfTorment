@@ -1,7 +1,7 @@
 토먼트의 가방들
 ~~~~~~~~~~~~~~
 
-버전:      1.1
+버전:      1.2
 제작자:    Argent77
 
 다운로드:  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -70,6 +70,12 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.2
+- Added Project Infinity metadata
+- Added German translation for WeiDU prompts
+- Added WeiDU SUPPORT information
+- Updated links in readme
 
 1.1
 - Added French translation (thanks mirandir)
