@@ -1,6 +1,13 @@
-BACKUP ~BagsOfTorment/backup~
+BACKUP ~weidu_external/backup/BagsOfTorment~
 SUPPORT ~https://forums.beamdog.com/discussion/64241~
 VERSION ~1.2~
+
+ALWAYS
+  // required because of non-standard BACKUP path
+  OUTER_TEXT_SPRINT MOD_FOLDER ~BagsOfTorment~
+  // root folder for mutable data
+  OUTER_TEXT_SPRINT WORK_FOLDER ~weidu_external~
+END
 
 README ~BagsOfTorment/readme/readme-%LANGUAGE%.txt~
        ~BagsOfTorment/readme/readme.txt~
@@ -12,31 +19,49 @@ LANGUAGE ~English~
          ~BagsOfTorment/language/english/dialogs.tra~
 LANGUAGE ~Deutsch~
          ~german~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/german/setup.tra~
          ~BagsOfTorment/language/german/bags.tra~
          ~BagsOfTorment/language/german/dialogs.tra~
 LANGUAGE ~Korean (translation: Teflon)~
          ~korean~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/korean/setup.tra~
          ~BagsOfTorment/language/korean/bags.tra~
          ~BagsOfTorment/language/korean/dialogs.tra~
 LANGUAGE ~Polski (tlumaczenie: Cahir)~
          ~polish~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/polish/setup.tra~
          ~BagsOfTorment/language/polish/bags.tra~
          ~BagsOfTorment/language/polish/dialogs.tra~
 LANGUAGE ~Russian (translator: Salazar aka Saigon1983)~
          ~russian~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/russian/setup.tra~
          ~BagsOfTorment/language/russian/bags.tra~
          ~BagsOfTorment/language/russian/dialogs.tra~
 LANGUAGE ~Francais (traduction: mirandir)~
          ~french~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/french/setup.tra~
          ~BagsOfTorment/language/french/bags.tra~
          ~BagsOfTorment/language/french/dialogs.tra~
 LANGUAGE ~Italiano (Traduzione: Azy, Aedan & improbabile)~
          ~italian~
+         ~BagsOfTorment/language/english/setup.tra~
+         ~BagsOfTorment/language/english/bags.tra~
+         ~BagsOfTorment/language/english/dialogs.tra~
          ~BagsOfTorment/language/italian/setup.tra~
          ~BagsOfTorment/language/italian/bags.tra~
          ~BagsOfTorment/language/italian/dialogs.tra~
