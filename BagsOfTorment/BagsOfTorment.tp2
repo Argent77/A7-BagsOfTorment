@@ -70,9 +70,10 @@ LANGUAGE ~Italiano (Traduzione: Azy, Aedan & improbabile)~
 ///////////////////////////
 // Containers for PST:EE //
 ///////////////////////////
-BEGIN @1
+BEGIN @1  // Containers for PST:EE
   REQUIRE_PREDICATE (GAME_IS ~pstee~) @100  // This mod requires PST:EE
   DESIGNATED 0
+  LABEL ~A7-BAGSOFTORMENT-MAIN~
 
   // *** Defining conditional journal entries ***
   OUTER_TEXT_SPRINT autoJournalLua ~~
@@ -251,9 +252,10 @@ END
 /////////////////////////////////////////////
 // Increase storage capacity of containers //
 /////////////////////////////////////////////
-BEGIN @10
+BEGIN @10 // Increase storage capacity of containers
   REQUIRE_COMPONENT ~BagsOfTorment.tp2~ 0 @101  // Main component required
   DESIGNATED 10
+  LABEL ~A7-BAGSOFTORMENT-INCREASE_CAPACITY~
 
   COPY_EXISTING ~a7#bag1.sto~ ~override~
                 ~a7#bag2.sto~ ~override~
