@@ -1,7 +1,7 @@
 토먼트의 가방들
 ~~~~~~~~~~~~~~
 
-버전:      1.2
+버전:      1.3
 제작자:    Argent77
 
 다운로드:  https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -24,6 +24,12 @@
 
 이것은 WeiDU 모드로, 설치하기 아주 쉽다는 뜻입니다. 단순히 다운받은 압축파일을   
 당신의 게임 설치 위치에 풀고 "setup-BagsOfTorment.exe" 를 실행 하십시오.
+
+Note:
+PST:EE patch version 3.1.4 and earlier contains a bug that will reset modded content whenever the
+party enters or resets the Modron Maze. To work around this issue, it is strongly recommended to
+download and install Generalized Biffing (https://github.com/SpellholdStudios/generalized_biffing/releases/latest)
+as the final mod in the mod list.
 
 
 구성 요소
@@ -70,6 +76,10 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.3
+- Added labels for Project Infinity
+- Updated German WeiDU setup prompts
 
 1.2
 - Added Project Infinity metadata

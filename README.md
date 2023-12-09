@@ -8,6 +8,8 @@
 *A mod for PST:EE that adds a number of container items to the game.*
 
 [![Beamdog Forums](https://img.shields.io/static/v1?label=Discussion&message=Beamdog%20Forums&color=444&labelColor=eee&style=for-the-badge)](https://forums.beamdog.com/discussion/64241 "Beamdog Forums")
+&nbsp;&nbsp;
+[![SHS Forums](https://img.shields.io/static/v1?label=Discussion&message=SHS%20Forums&color=951514&labelColor=eee&style=for-the-badge)](http://www.shsforums.net/topic/60063-bags-of-torment/ "Spellhold Studios Forums")
 
 ## Overview
 

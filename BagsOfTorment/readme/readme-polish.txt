@@ -1,7 +1,7 @@
 Bags of Torment
 ~~~~~~~~~~~~~~~
 
-Version:    1.2
+Version:    1.3
 Author:     Argent77
 
 Download:   https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -25,6 +25,12 @@ Instalacja
 Jest to modyfikacja WeiDU, co oznacza, iż jest bardzo prosta w instalacji. Wystarczy rozpakować 
 pobrane archiwum do katalogu z grą, a następnie uruchomić plik „setup-BagsOfTorment.exe w przypadku 
 systemu Windows.
+
+Note:
+PST:EE patch version 3.1.4 and earlier contains a bug that will reset modded content whenever the
+party enters or resets the Modron Maze. To work around this issue, it is strongly recommended to
+download and install Generalized Biffing (https://github.com/SpellholdStudios/generalized_biffing/releases/latest)
+as the final mod in the mod list.
 
 
 Komponenty
@@ -74,6 +80,10 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.3
+- Added labels for Project Infinity
+- Updated German WeiDU setup prompts
 
 1.2
 - Added Project Infinity metadata

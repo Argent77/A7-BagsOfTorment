@@ -1,7 +1,7 @@
 Torments Taschen
 ~~~~~~~~~~~~~~~~
 
-Version:    1.2
+Version:    1.3
 Autor:      Argent77
 
 Download:   https://github.com/Argent77/A7-BagsOfTorment/releases/latest
@@ -24,6 +24,12 @@ Installation
 
 Dies ist eine WeiDU Mod. Das bedeutet, sie ist sehr einfach zu installieren. Entpacke die 
 heruntergeladene Zipdatei in das Spieleverzeichnis und starte "setup-BagsOfTorment.exe" (Windows).
+
+Hinweis:
+PST:EE version 3.1.4 und früher beinhaltet einen Bug, der modifizierte Inhalte zurücksetzt, wenn
+die Gruppe den Modron-Irrgang betritt. Um diesen Bug zu umgehen, wird dringend empfohlen,
+Generalized Biffing (https://github.com/SpellholdStudios/generalized_biffing/releases/latest)
+als abschließende Mod in der Modliste zu installieren.
 
 
 Komponenten
@@ -70,6 +76,10 @@ International License" (http://creativecommons.org/licenses/by-sa/4.0/).
 
 History
 ~~~~~~~
+
+1.3
+- Added labels for Project Infinity
+- Updated German WeiDU setup prompts
 
 1.2
 - Added Project Infinity metadata
